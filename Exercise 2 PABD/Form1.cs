@@ -39,6 +39,9 @@ namespace Exercise_2_PABD
             this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Maroon;
             this.dataGridView1.BackgroundColor = Color.Black;
 
+            this.dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
         }
 
 
