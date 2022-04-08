@@ -22,6 +22,9 @@ namespace Exercise_2_PABD
             // TODO: This line of code loads data into the 'prodiTIDataSet.Mahasiswa' table. You can move, or remove it, as needed.
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
 
+            //membuat tulisan header tabel bold (tebal)
+            dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridView1.ColumnHeadersDefaultCellStyle.Font, FontStyle.Bold);
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
