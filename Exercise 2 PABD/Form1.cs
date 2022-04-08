@@ -37,6 +37,7 @@ namespace Exercise_2_PABD
             this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.CadetBlue;
             this.dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.Green;
             this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Maroon;
+            this.dataGridView1.BackgroundColor = Color.Black;
 
         }
 
