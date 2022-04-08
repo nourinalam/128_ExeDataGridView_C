@@ -41,6 +41,7 @@ namespace Exercise_2_PABD
             this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phoneMhsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource)).BeginInit();
@@ -58,11 +59,11 @@ namespace Exercise_2_PABD
             this.sexDataGridViewTextBoxColumn,
             this.phoneMhsDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(370, 206);
+            this.dataGridView1.Location = new System.Drawing.Point(362, 650);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(992, 217);
+            this.dataGridView1.Size = new System.Drawing.Size(1289, 217);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -123,19 +124,31 @@ namespace Exercise_2_PABD
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(45, 26);
+            this.pictureBox1.Location = new System.Drawing.Point(362, 168);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(280, 451);
+            this.pictureBox1.Size = new System.Drawing.Size(199, 336);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 49.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Yellow;
+            this.label1.Location = new System.Drawing.Point(601, 249);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(866, 147);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Data Mahasiswa TI";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1413, 705);
+            this.ClientSize = new System.Drawing.Size(1636, 928);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
@@ -146,6 +159,7 @@ namespace Exercise_2_PABD
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -161,6 +175,7 @@ namespace Exercise_2_PABD
         private System.Windows.Forms.DataGridViewTextBoxColumn sexDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn phoneMhsDataGridViewTextBoxColumn;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
